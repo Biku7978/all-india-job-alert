@@ -3,35 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>All India Job Alert - Latest Vacancies</title>
+    <title>All India Job Alert</title>
     <style>
-        body { font-family: Arial, sans-serif; background-color: #f4f4f9; padding: 20px; }
-        .container { max-width: 600px; margin: auto; }
-        .job-card { background: white; padding: 20px; margin-bottom: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); border-left: 5px solid #0056b3; }
-        h3 { color: #0056b3; margin-top: 0; }
-        .btn { display: inline-block; background: #0056b3; color: white; padding: 10px 20px; text-decoration: none; border-radius: 4px; font-weight: bold; margin-top: 10px; }
+        body { font-family: 'Segoe UI', sans-serif; background-color: #f0f2f5; padding: 15px; }
+        .container { max-width: 500px; margin: auto; }
+        .job-card { background: white; border-radius: 12px; overflow: hidden; margin-bottom: 20px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+        .job-card img { width: 100%; height: auto; display: block; }
+        .info { padding: 15px; }
+        h3 { color: #0056b3; margin: 0 0 10px 0; }
+        .btn { display: block; background: #0056b3; color: white; padding: 12px; text-decoration: none; border-radius: 6px; font-weight: bold; text-align: center; margin-top: 10px; }
     </style>
 </head>
 <body>
 
 <div class="container">
-    <h2 style="text-align:center; margin-bottom: 20px;">Latest Job Alerts</h2>
+    <h2 style="text-align:center;">Latest Job Alerts</h2>
 
-    <!-- Lloyds Job (Nayi job sabse upar) -->
+    <!-- Lloyds Job Card -->
     <div class="job-card">
-        <h3>Lloyds Engineering Works Recruitment 2026</h3>
-        <p>Urgent opening for Construction Contracting Division. Click to view details and apply.</p>
-        <a href="lloyds.html" class="btn">View Details & Apply</a>
+        <img src="lloyds_poster.png" alt="Lloyds Jobs"> <!-- Yaha apni file ka naam dalein -->
+        <div class="info">
+            <h3>Lloyds Engineering Works</h3>
+            <p>Urgent hiring for Construction Contracting Division. Multiple positions available.</p>
+            <a href="lloyds.html" class="btn">View Details & Apply</a>
+        </div>
     </div>
 
-    <!-- Runwal Job (Niche) -->
+    <!-- Runwal Job Card -->
     <div class="job-card">
-        <h3>Runwal Realty Recruitment 2026</h3>
-        <p>Junior & Senior Engineer openings for residential projects in Mumbai.</p>
-        <a href="runwal.html" class="btn">View Details & Apply</a>
+        <img src="runwal_poster.png" alt="Runwal Jobs"> <!-- Yaha apni file ka naam dalein -->
+        <div class="info">
+            <h3>Runwal Realty Recruitment</h3>
+            <p>Hiring Junior & Senior Engineers for high-rise residential projects.</p>
+            <a href="runwal.html" class="btn">View Details & Apply</a>
+        </div>
     </div>
 
 </div>
-
 </body>
 </html>
