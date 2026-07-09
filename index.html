@@ -5,23 +5,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>All India Job Alert</title>
     <style>
-        body { font-family: 'Segoe UI', sans-serif; background-color: #f0f2f5; padding: 15px; }
+        /* Premium Background Gradient */
+        body { 
+            font-family: 'Segoe UI', sans-serif; 
+            margin: 0; 
+            padding: 20px; 
+            background: linear-gradient(135deg, #0f2027, #203a43, #2c5364); 
+            min-height: 100vh;
+            color: #333;
+        }
         .container { max-width: 500px; margin: auto; }
-        .job-card { background: white; border-radius: 12px; overflow: hidden; margin-bottom: 20px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+        
+        /* Glassmorphism Effect for Cards */
+        .job-card { 
+            background: rgba(255, 255, 255, 0.95); 
+            border-radius: 16px; 
+            overflow: hidden; 
+            margin-bottom: 25px; 
+            box-shadow: 0 8px 32px rgba(0,0,0,0.3); 
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
         .job-card img { width: 100%; height: auto; display: block; }
-        .info { padding: 15px; }
-        h3 { color: #0056b3; margin: 0 0 10px 0; }
-        .btn { display: block; background: #0056b3; color: white; padding: 12px; text-decoration: none; border-radius: 6px; font-weight: bold; text-align: center; margin-top: 10px; }
+        .info { padding: 20px; }
+        h3 { color: #0056b3; margin: 0 0 10px 0; font-size: 20px; }
+        .btn { 
+            display: block; 
+            background: #0056b3; 
+            color: white; 
+            padding: 14px; 
+            text-decoration: none; 
+            border-radius: 8px; 
+            font-weight: bold; 
+            text-align: center; 
+            margin-top: 15px; 
+            transition: background 0.3s;
+        }
+        .btn:hover { background: #004494; }
+        h2 { color: white; text-align: center; margin-bottom: 30px; text-shadow: 2px 2px 4px rgba(0,0,0,0.5); }
     </style>
 </head>
 <body>
 
 <div class="container">
-    <h2 style="text-align:center;">Latest Job Alerts</h2>
+    <h2>Latest Job Alerts</h2>
 
-    <!-- Lloyds Job Card -->
+    <!-- Lloyds Job -->
     <div class="job-card">
-        <img src="lloyds_poster.png" alt="Lloyds Jobs"> <!-- Yaha apni file ka naam dalein -->
+        <img src="lloyds_poster.png" alt="Lloyds Jobs">
         <div class="info">
             <h3>Lloyds Engineering Works</h3>
             <p>Urgent hiring for Construction Contracting Division. Multiple positions available.</p>
@@ -29,9 +60,9 @@
         </div>
     </div>
 
-    <!-- Runwal Job Card -->
+    <!-- Runwal Job -->
     <div class="job-card">
-        <img src="runwal_poster.png" alt="Runwal Jobs"> <!-- Yaha apni file ka naam dalein -->
+        <img src="runwal_poster.png" alt="Runwal Jobs">
         <div class="info">
             <h3>Runwal Realty Recruitment</h3>
             <p>Hiring Junior & Senior Engineers for high-rise residential projects.</p>
