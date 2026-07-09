@@ -3,229 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>All India Job Alert</title>
-
-    <!-- Google AdSense Code -->
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5447514271969241" crossorigin="anonymous"></script>
-
+    <title>All India Job Alert - Latest Vacancies</title>
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: Arial, sans-serif;
-        }
-
-        body {
-            background-color: #f8f9fa;
-            padding-bottom: 80px;
-        }
-
-        header {
-            background-color: #0056b3;
-            color: white;
-            text-align: center;
-            padding: 20px;
-            font-size: 24px;
-            font-weight: bold;
-        }
-
-        .container {
-            max-width: 650px;
-            margin: auto;
-            background: white;
-            padding: 15px;
-            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-        }
-
-        /* Social Media Join Buttons */
-        .join-box {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            border: 1px solid #e0e0e0;
-            border-radius: 8px;
-            padding: 12px 15px;
-            margin-bottom: 15px;
-            background-color: #fff;
-        }
-
-        .join-info {
-            display: flex;
-            align-items: center;
-            gap: 12px;
-            font-size: 16px;
-            font-weight: bold;
-            color: #333;
-        }
-
-        .join-info img {
-            width: 30px;
-            height: 30px;
-        }
-
-        .btn-whatsapp {
-            background-color: #25D366;
-            color: white;
-            text-decoration: none;
-            padding: 8px 18px;
-            border-radius: 5px;
-            font-weight: bold;
-            font-size: 14px;
-        }
-
-        .btn-telegram {
-            background-color: #0088cc;
-            color: white;
-            text-decoration: none;
-            padding: 8px 18px;
-            border-radius: 5px;
-            font-weight: bold;
-            font-size: 14px;
-        }
-
-        /* Job Cards Styling */
-        .jobs {
-            margin-top: 25px;
-        }
-
-        .job-card {
-            background: #ffffff;
-            padding: 20px;
-            margin-bottom: 25px;
-            border-radius: 8px;
-            border: 1px solid #e0e0e0;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
-        }
-
-        .job-card h2 {
-            color: #0056b3;
-            margin-bottom: 12px;
-            font-size: 20px;
-        }
-
-        .job-card p {
-            margin: 6px 0;
-            font-size: 15px;
-            color: #444;
-            line-height: 1.4;
-        }
-
-        .apply-btn {
-            display: inline-block;
-            background-color: #28a745;
-            color: white;
-            padding: 10px 20px;
-            text-decoration: none;
-            border-radius: 5px;
-            margin-top: 15px;
-            font-weight: bold;
-            font-size: 15px;
-        }
-
-        .apply-btn:hover {
-            background-color: #218838;
-        }
-
-        footer {
-            background-color: #0056b3;
-            color: white;
-            text-align: center;
-            padding: 15px;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-            font-size: 14px;
-        }
+        body { font-family: Arial, sans-serif; background-color: #f4f4f9; padding: 20px; }
+        .container { max-width: 600px; margin: auto; }
+        .job-card { background: white; padding: 20px; margin-bottom: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); border-left: 5px solid #0056b3; }
+        h3 { color: #0056b3; margin-top: 0; }
+        .btn { display: inline-block; background: #0056b3; color: white; padding: 10px 20px; text-decoration: none; border-radius: 4px; font-weight: bold; margin-top: 10px; }
     </style>
 </head>
 <body>
 
-    <header>
-        All India Job Alert
-    </header>
+<div class="container">
+    <h2 style="text-align:center; margin-bottom: 20px;">Latest Job Alerts</h2>
 
-    <div class="container">
-        
-        <!-- 1. WhatsApp Group Button -->
-        <div class="join-box">
-            <div class="join-info">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
-                <span>WhatsApp Group</span>
-            </div>
-            <a href="https://whatsapp.com/channel/0029Vb78g62G3R3p4gXWpi3c" target="_blank" class="btn-whatsapp">🟢 Join Now</a>
-        </div>
-
-        <!-- 2. Telegram Group Button -->
-        <div class="join-box">
-            <div class="join-info">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg" alt="Telegram">
-                <span>Telegram Group</span>
-            </div>
-            <a href="#" target="_blank" class="btn-telegram">🔵 Join Now</a>
-        </div>
-
-        <!-- 3. All Job Posts Details -->
-        <div class="jobs">
-            
-            <!-- Job Card 1 -->
-            <div class="job-card">
-                <h2>Keller Recruitment 2026</h2>
-                <p><b>Positions:</b> Engineer, Graduate Engineer Trainee & Managers</p>
-                <p><b>Qualification:</b> BE Civil, Mechanical, MBA</p>
-                <p><b>Experience:</b> Freshers & Experienced both can apply</p>
-                <p><b>Location:</b> India</p>
-                <a href="#" class="apply-btn">Read More</a>
-            </div>
-
-            <!-- Job Card 2 -->
-            <div class="job-card">
-                <h2>Mohan Mutha Exports Recruitment</h2>
-                <p><b>Positions:</b> Planning, Billing & Site Engineers</p>
-                <p><b>Qualification:</b> BE Civil, M.Tech</p>
-                <p><b>Experience:</b> 3 to 7 Years Experience</p>
-                <p><b>Location:</b> Chennai</p>
-                <a href="#" class="apply-btn">Read More</a>
-            </div>
-
-            <!-- Job Card 3 -->
-            <div class="job-card">
-                <h2>L&T Construction Recruitment</h2>
-                <p><b>Positions:</b> Supervisor, Junior Engineer & Section In-charge</p>
-                <p><b>Qualification:</b> Diploma / BE Civil / Mechanical</p>
-                <p><b>Experience:</b> 2+ Years Experience in Infrastructure</p>
-                <p><b>Location:</b> Pan India</p>
-                <a href="#" class="apply-btn">Read More</a>
-            </div>
-
-            <!-- Job Card 4 -->
-            <div class="job-card">
-                <h2>Tata Projects Recruitment</h2>
-                <p><b>Positions:</b> Quality Control, Safety & Execution Engineers</p>
-                <p><b>Qualification:</b> ITI / Diploma / BE</p>
-                <p><b>Experience:</b> 1+ Years Experience in Metro/Industrial Projects</p>
-                <p><b>Location:</b> India</p>
-                <a href="#" class="apply-btn">Read More</a>
-            </div>
-
-            <!-- Job Card 5 (Runwal Realty) -->
-            <div class="job-card">
-                <h2>Runwal Realty Recruitment 2026</h2>
-                <p><b>Positions:</b> Junior & Senior Engineer (Projects)</p>
-                <p><b>Qualification:</b> B.E. in Civil Engineering</p>
-                <p><b>Experience:</b> Minimum 2 Years (High-rise residential projects)</p>
-                <p><b>Skills:</b> RCC & Finishing Works, Site Execution</p>
-                <p><b>Location:</b> Wadala, Mumbai, Maharashtra</p>
-                <a href="mailto:joseph.fernandes@runwal.com,karishma.padwalkar@runwal.com?subject=Application for Engineer Position" class="apply-btn">Apply via Email</a>
-            </div>
-
-        </div>
-
+    <!-- Lloyds Job (Nayi job sabse upar) -->
+    <div class="job-card">
+        <h3>Lloyds Engineering Works Recruitment 2026</h3>
+        <p>Urgent opening for Construction Contracting Division. Click to view details and apply.</p>
+        <a href="lloyds.html" class="btn">View Details & Apply</a>
     </div>
 
-    <footer>
-        <p>&copy; 2026 All India Job Alert. All Rights Reserved.</p>
-    </footer>
+    <!-- Runwal Job (Niche) -->
+    <div class="job-card">
+        <h3>Runwal Realty Recruitment 2026</h3>
+        <p>Junior & Senior Engineer openings for residential projects in Mumbai.</p>
+        <a href="runwal.html" class="btn">View Details & Apply</a>
+    </div>
+
+</div>
 
 </body>
 </html>
