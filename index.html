@@ -4,65 +4,176 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>All India Job Alert</title>
+
 <style>
-body{
-font-family:Arial,sans-serif;
+*{
 margin:0;
-background:#f5f5f5;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
 }
+
+body{
+background:#f4f4f4;
+}
+
 header{
-background:#0d47a1;
-color:#fff;
+background:#004aad;
+color:white;
 padding:20px;
 text-align:center;
 }
-.job{
-background:#fff;
-margin:15px;
+
+header h1{
+font-size:32px;
+}
+
+header p{
+margin-top:8px;
+}
+
+.search-box{
 padding:15px;
-border-radius:8px;
-box-shadow:0 2px 5px rgba(0,0,0,0.2);
-}
-a{
-display:inline-block;
-margin-top:10px;
-background:#28a745;
-color:#fff;
-padding:10px 15px;
-text-decoration:none;
-border-radius:5px;
-}
-footer{
-background:#0d47a1;
-color:#fff;
+background:white;
 text-align:center;
-padding:15px;
-margin-top:20px;
 }
+
+.search-box input{
+width:90%;
+padding:12px;
+font-size:16px;
+border:2px solid #004aad;
+border-radius:8px;
+}
+
+.menu{
+display:flex;
+justify-content:center;
+gap:10px;
+padding:15px;
+flex-wrap:wrap;
+}
+
+.menu button{
+background:#004aad;
+color:white;
+border:none;
+padding:10px 18px;
+border-radius:8px;
+font-size:16px;
+}
+
+.jobs{
+padding:15px;
+}
+
+.job-card{
+background:white;
+padding:20px;
+border-radius:10px;
+margin-bottom:20px;
+box-shadow:0 2px 8px rgba(0,0,0,.15);
+}
+
+.job-card h2{
+color:#004aad;
+margin-bottom:10px;
+}
+
+.job-card p{
+margin:6px 0;
+}
+
+.apply-btn{
+display:inline-block;
+margin-top:15px;
+background:#28a745;
+color:white;
+padding:10px 18px;
+border-radius:6px;
+text-decoration:none;
+}
+  footer{
+background:#004aad;
+color:white;
+text-align:center;
+padding:20px;
+margin-top:30px;
+}
+
+.whatsapp{
+position:fixed;
+bottom:20px;
+right:20px;
+background:#25D366;
+color:white;
+padding:12px 18px;
+border-radius:50px;
+text-decoration:none;
+font-weight:bold;
+}
+
 </style>
 </head>
+
 <body>
 
 <header>
-<h1>✅ All India Job Alert 🇮🇳</h1>
+<h1>🇮🇳 All India Job Alert</h1>
 <p>Latest Government & Private Job Updates</p>
 </header>
 
-<div class="job">
-<h2>Mohan Mutha Exports Recruitment 2026</h2>
-<p><b>Location:</b> Chennai</p>
-<p><b>Qualification:</b> BE Civil, BE Mechanical, M.Tech</p>
-<a href="#">Apply Now</a>
+<div class="search-box">
+<input type="text" placeholder="Search Jobs...">
 </div>
 
-<div class="job">
-<h2>Keller Recruitment 2026</h2>
-<p><b>Qualification:</b> BE Civil, Mechanical, B.Com, M.Com, MBA</p>
-<a href="#">Apply Now</a>
+<div class="menu">
+<button>Govt Jobs</button>
+<button>Private Jobs</button>
+<button>Walk-in</button>
+<button>Results</button>
+<button>Admit Card</button>
 </div>
+
+<div class="jobs">
+
+<div class="job-card">
+<h2>Keller Recruitment 2026</h2>
+<p><b>Qualification:</b> BE Civil, Mechanical, MBA</p>
+<p><b>Location:</b> India</p>
+<a href="#" class="apply-btn">Read More</a>
+</div>
+
+<div class="job-card">
+<h2>Mohan Mutha Exports Recruitment</h2>
+<p><b>Qualification:</b> BE Civil, M.Tech</p>
+<p><b>Location:</b> Chennai</p>
+<a href="#" class="apply-btn">Read More</a>
+</div>
+<div class="job-card">
+<h2>L&T Construction Recruitment</h2>
+<p><b>Qualification:</b> Diploma / BE Civil / Mechanical</p>
+<p><b>Location:</b> Pan India</p>
+<a href="#" class="apply-btn">Read More</a>
+</div>
+
+<div class="job-card">
+<h2>Tata Projects Recruitment</h2>
+<p><b>Qualification:</b> ITI / Diploma / BE</p>
+<p><b>Location:</b> Multiple Locations</p>
+<a href="#" class="apply-btn">Read More</a>
+</div>
+
+</div>
+
+<a href="https://whatsapp.com/channel/YOUR_CHANNEL_LINK" class="whatsapp">
+Join WhatsApp
+</a>
 
 <footer>
-© 2026 All India Job Alert
+<h3>All India Job Alert</h3>
+<p>Latest Government & Private Job Updates Across India</p>
+<p>© 2026 All India Job Alert. All Rights Reserved.</p>
 </footer>
 
 </body>
