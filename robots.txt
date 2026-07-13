@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://all-india-job-alert-91hn.vercel.app/sitemap.xml
